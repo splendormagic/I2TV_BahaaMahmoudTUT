@@ -1,6 +1,6 @@
 from IPython.display import HTML, Audio, clear_output
 from google.colab.output import eval_js
-from base64 import b64decode
+from base64 import b64decode, b64encode
 import numpy as np
 from scipy.io.wavfile import read as wav_read
 import io
@@ -13,3 +13,6 @@ import shutil
 from google.colab import drive
 
 import moviepy.editor as mp
+
+from IPython.core.display import display
+
