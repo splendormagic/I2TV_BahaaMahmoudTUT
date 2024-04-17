@@ -1,4 +1,4 @@
-from IPython.display import HTML, Audio, clear_output
+from IPython.display import HTML, Audio, clear_output, Image
 from google.colab.output import eval_js
 from base64 import b64decode, b64encode
 import numpy as np
